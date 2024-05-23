@@ -89,7 +89,27 @@ public class GameFrame extends JFrame {
                 return;
             }
         }
-        JOptionPane.showMessageDialog(this, "¡Enhorabuena! Has completado el juego en " + attempts + " intentos.");
+        
+        // Cargar la imagen
+        ImageIcon icon = new ImageIcon("MONGODB (1).jpg");
+
+        // Mostrar el JOptionPane con la imagen
+        JOptionPane.showMessageDialog(
+            this,
+            new JLabel(icon),
+            "¡Juego Completado!",
+            JOptionPane.PLAIN_MESSAGE
+        );
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new GameFrame();
+            }
+        });
+
     }
 
             
