@@ -91,7 +91,7 @@ public class GameFrame extends JFrame {
         }
         
         // Cargar la imagen
-        ImageIcon icon = new ImageIcon("MONGODB(1).jpg");
+        ImageIcon icon = new ImageIcon("MONGODB (1).jpg");
 
         // Mostrar el JOptionPane con la imagen
         JOptionPane.showMessageDialog(
