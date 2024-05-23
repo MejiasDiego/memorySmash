@@ -91,5 +91,8 @@ public class GameFrame extends JFrame {
         }
         JOptionPane.showMessageDialog(this, "¡Enhorabuena! Has completado el juego en " + attempts + " intentos.");
     }
-}
+
+            
+      }
+
 
