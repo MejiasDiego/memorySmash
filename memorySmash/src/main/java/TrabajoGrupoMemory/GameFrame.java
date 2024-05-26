@@ -89,10 +89,39 @@ public class GameFrame extends JFrame {
                 return;
             }
         }
-        JOptionPane.showMessageDialog(this, "¡Enhorabuena! Has completado el juego en " + attempts + " intentos.");
+        // Mostrar el frame de felicitaciones en lugar de solo el cuadro de diálogo
+        new FelicitacionesFrame();
     }
 
-            
-      }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new GameFrame();
+            }
+        });
+    }
+}
 
+class FelicitacionesFrame extends JFrame {
 
+    public FelicitacionesFrame() {
+        // Configura el JFrame
+        setTitle("Felicitaciones");
+        setSize(400, 300);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // Solo cierra esta ventana
+        setLocationRelativeTo(null);
+
+        // Carga la imagen
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("MONGODB (1).jpg"));
+
+        // Crea un JLabel con la imagen
+        JLabel label = new JLabel(imageIcon);
+
+        // Añade el JLabel al JFrame
+        add(label);
+
+        // Haz visible el JFrame
+        setVisible(true);
+    }
+}
