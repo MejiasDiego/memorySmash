@@ -1,3 +1,8 @@
+/*
+ * 
+ * Hola
+ * 
+ */
 package TrabajoGrupoMemory;
 
 
@@ -5,7 +10,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
-
 public class Board {
     private ArrayList<Card> cards;
 

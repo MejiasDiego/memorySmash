@@ -1,3 +1,8 @@
+/*
+ * 
+ * Hola
+ * 
+ */
 package TrabajoGrupoMemory;
 import javax.swing.*;
 import java.awt.*;
@@ -22,10 +27,13 @@ public class GameFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 600);
         JPanel cardsPanel = new JPanel();
+        
         cardsPanel.setLayout(new GridLayout(4, 4)); // 4x4 para 16 cartas
         add(cardsPanel, BorderLayout.CENTER);
+        
         attemptsLabel = new JLabel("Intentos: 0");
         add(attemptsLabel, BorderLayout.SOUTH);
+        
         ArrayList<Card> cards = board.getCards();
         for (Card card : cards) {
             final Card finalCard = card; // Hacer la variable efectiva final
