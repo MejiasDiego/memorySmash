@@ -1,8 +1,3 @@
-/*
- * 
- * Hola
- * 
- */
 package TrabajoGrupoMemory;
 import javax.swing.*;
 import java.awt.*;
