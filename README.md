@@ -1,5 +1,11 @@
 **Este repositorio contiene un juego simple de memoria implementado en Java utilizando Swing.** El juego consiste en encontrar pares de cartas iguales entre un conjunto de cartas dispuestas aleatoriamente en una cuadrícula.
 
+
+
+https://github.com/MejiasDiego/memorySmash/assets/158473709/27417280-8def-4cf8-8bd9-8ce59dad21e1
+
+
+
 **Estructura del Proyecto**
 
 El proyecto está organizado en tres clases principales dentro del paquete TrabajoGrupoMemory:
