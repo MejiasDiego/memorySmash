@@ -2,8 +2,8 @@
 
 
 
-https://github.com/MejiasDiego/memorySmash/assets/158473709/27417280-8def-4cf8-8bd9-8ce59dad21e1
 
+![clipMemorySmash](https://github.com/MejiasDiego/memorySmash/assets/158473709/2d938567-f0ff-4438-a5d7-2c8cbd3888ae)
 
 
 **Estructura del Proyecto**
